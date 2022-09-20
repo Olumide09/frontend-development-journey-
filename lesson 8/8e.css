@@ -1,0 +1,49 @@
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.pickup{
+    width: 600px;
+    height: 36px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.destination{
+    width: 600px;
+    height: 36px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.request-button {
+    color: white;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+}
+.request-button:hover{
+    opacity: 0.7;
+}
+
+.schedule-button{
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

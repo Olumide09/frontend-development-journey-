@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>7f.</title>
     <style>
-        .button{
-            color: white;
-            background-color: rgb(10, 102, 194);
-            height: 46px;
-            width: 500px;
-            border: 0;
-            border-radius: 100px;
-            font-family: Arial;
-        }
-        .textarea{
-            width: 500px;
-            height: 25px;
-            border-color: gray;
-            border-radius: 5px;
-        }
-        .description{
-            font-family: Arial;
-            font-size: 5px;
-        }
+      .button {
+        color: white;
+        background-color: rgb(10, 102, 194);
+        height: 46px;
+        width: 500px;
+        border: 0;
+        border-radius: 100px;
+        font-family: Arial;
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+      .textarea {
+        width: 500px;
+        height: 25px;
+        border-color: rgb(100, 100, 100);
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: solid;
+      }
+      .description {
+        font-family: Arial;
+        font-size: 16px;
+      }
+      .label {
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-family: Arial;
+      }
+
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin-right: 5px;
+        border-radius: 25px;
+        margin-top: 20px;
+        vertical-align: middle;
+      }
+      .textbox {
+        font-size: 18px;
+        border: none;
+        width: 300px;
+        vertical-align: middle;
+      }
+      .tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <p>7f.</p>
-    <p>Email</p>
-    <p><input class="textarea" type="text"></p>
-    <p class="description">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <p class="label">Email</p>
+    <p><input class="textarea" type="text" /></p>
+    <p class="description">
+      By clicking Agree & Join, you agree to the Privacy Policy.
+    </p>
     <button class="button">Agree & Join</button>
-</body>
+
+    <br />
+
+    <img
+      class="profile-picture"
+      src="/spilt-landing-page/html-css-course/image.jpg"
+      alt="oasis"
+    />
+    <input class="textbox" type="text" placeholder="What's happening?" />
+    <button class="tweet-button">Tweet</button>
+  </body>
 </html>
