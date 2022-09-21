@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
     <style>
-        .search-bar {
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
 
-        }
-        .thumbnail{
-            width: 300px;
-            display: block;
-        }
-        </style>
-</head>
-<body>
-    <input class="search-bar" type="searchbox" placeholder="Search" value="">
-    <img class="thumbnail" src="/youtube-clone/thumbnails/thumbnail-1.webp" alt="">
-    <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
-    <p>Marques Brownlee</p>
-    <p>3.4M views &#183; 6 months ago</p>
-</body>
+      .thumbnail2 {
+        width: 300px;
+        display: block;
+      }
+
+      .search-bar {
+        display: block;
+      }
+
+      .video-preview{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <input
+        class="search-bar"
+        type="searchbox"
+        placeholder="Search"
+        value=""
+      />
+    <div class="video-preview">
+      <img
+        class="thumbnail"
+        src="/youtube-clone/thumbnails/thumbnail-1.webp"
+        alt="image1."
+      />
+      <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
+      <p>Marques Brownlee</p>
+      <p>3.4M views &#183; 6 months ago</p>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnail2" src="/youtube-clone/thumbnails/thumbnail-2.webp" alt="steez">
+        <p>Try Not To Laugh Challenge #9</p>
+        <p>Markiplier</p>
+        <p>19M views &#183; 4 years ago </p>
+    </div>
+  </body>
 </html>
